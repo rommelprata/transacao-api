@@ -19,7 +19,7 @@ public class EstatisticasService {
 
     public EstatisticasResponseDTO calcularEstatisticasTransacoes(Integer intervaloBusca) {
 
-        log.info("Iniciada busca de estatísticas de transações pelo período de tempo " + intervaloBusca);
+        log.info("Iniciada busca de estatísticas de transações pelo período de tempo x" + intervaloBusca);
 
         long start = System.currentTimeMillis();
 
