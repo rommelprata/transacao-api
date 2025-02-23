@@ -20,8 +20,8 @@ public class TransacaoController {
     @PostMapping
     @Operation(description = "Endpoint responsável por adicionar transações")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "201", description = "Transação gravada com sucesso x"),
-            @ApiResponse(responseCode = "422", description = "Campos não atendem os requisitos da transação x"),
+            @ApiResponse(responseCode = "201", description = "Transação gravada com sucesso "),
+            @ApiResponse(responseCode = "422", description = "Campos não atendem os requisitos da transação "),
             @ApiResponse(responseCode = "400", description = "Erro de requisição"),
             @ApiResponse(responseCode = "500", description = "Erro interno do servidor")
     })
