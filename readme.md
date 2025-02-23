@@ -25,13 +25,13 @@ Docker (opcional): Caso queira rodar a aplicação em um container.
 2. Compile o Projeto
 
 ```bash
- mvn clean install
+ gradle clean install
 ```
 
 3. Execute o Projeto
 
 ```bash
-mvn spring-boot:run
+gradle  spring-boot:run
 ```
 4. Como Rodar em um Container (Opcional)
 
